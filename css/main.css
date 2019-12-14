@@ -1,0 +1,115 @@
+  html {
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 1.5rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin: 0 auto .75rem;
+  padding: 0 0 .75rem;
+  font-size: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  display: flex;
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  border-radius: 8px;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+section {
+  display: flex;
+}
+
+section div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section p {
+  flex-grow: 1;
+}
+
+.one {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  padding: .75rem;
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+.two {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  padding: .75rem;
+  background-color: #ccc;
+  margin: 0;
+}
+
+.three {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  padding: .75rem;
+  background-color: #aaa;
+  margin: 0;
+}
+
+.four {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  padding: .75rem;
+  background-color: #999;
+  margin: 0;
+}
+
+div img {
+  width: 100px;
+}
+
+cite {
+  font-size: .875rem;
+}
